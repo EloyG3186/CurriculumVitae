@@ -7,7 +7,7 @@
     --gray-color-dark: #333;
 }
 
-body{
+body {
     background: #000;
 }
 
@@ -170,7 +170,7 @@ ul {
 }
 
 /* IDIOMAS */
-#idiomas{
+#idiomas {
     text-align: center;
     justify-content: center;
     height: 200px;
@@ -183,28 +183,32 @@ ul {
     margin: 0 auto;
 }
 
-#tdidiomas > caption{
+#tdidiomas>caption {
     color: #0ba2b6;
     font-size: 18px;
 }
 
-#tdidiomas{
-justify-content: center;
-border-collapse:collapse;
+#tdidiomas {
+    justify-content: center;
+    border-collapse: collapse;
 }
 
-#tdidiomas> th, td{
+#tdidiomas>th,
+td {
     border: solid 1px grey;
 }
 
 /* CONTENIDOS TRANSVERSALES */
-#secciontransversales{
+#secciontransversales {
     text-align: center;
     justify-content: center;
     height: 200px;
 }
 
-section, aside, footer, address{
+section,
+aside,
+footer,
+address {
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -212,14 +216,99 @@ section, aside, footer, address{
     justify-content: center;
 }
 
-section{
+section {
     box-shadow: 0px 0px 1px rgb(170, 184, 152);
 }
 
-footer{
+footer {
     width: 100%;
     display: flex;
     flex-direction: row;
     margin-right: 10px;
 }
 
+#formContacto {
+
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+
+#cajas {
+
+    padding: 10px
+}
+
+#edadServicio {
+    text-align: left;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+
+    width: 100%;
+}
+
+#edades,
+#servicios {
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#edades>h4,
+#servicios>h4 {
+    text-align: center;
+}
+
+#edades {
+
+    padding: 0;
+}
+
+#servicios {
+
+    padding-right: 10px;
+
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#ubicacion {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#formContacto input[type="text"] {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#enviar {
+    width: 30%;
+    text-transform: uppercase;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    transition: all 0.3s;
+    padding-bottom: 10px;
+}
+
+#enviar:hover {
+    cursor: pointer;
+    background-color: #305496;
+}
+#btEnviar{
+    padding-bottom: 30px;
+}
+
+
+section{
+    padding-bottom: 20px;
+}
